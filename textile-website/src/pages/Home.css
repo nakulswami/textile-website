@@ -1,0 +1,533 @@
+.hero {
+    min-height: calc(100vh - 73px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 8%;
+    gap: 60px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-tag {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #8b6f47;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #666;
+    max-width: 520px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 14px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+}
+
+.primary-btn {
+    background-color: #222;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #222;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-placeholder {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #ddd5ca;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    color: #777;
+}
+
+.categories {
+    padding: 100px 8%;
+    background-color: white;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+.section-heading p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #8b6f47;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.section-heading span {
+    color: #777;
+    line-height: 1.6;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.category-card {
+    border: 1px solid #e8e5e0;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-image {
+    height: 220px;
+    background-color: #e5ded3;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.category-card h3 {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.category-card p {
+    color: #777;
+    line-height: 1.5;
+}
+
+.featured-products {
+    padding: 100px 8%;
+    background-color: #f8f7f4;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.section-label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #8b6f47;
+    margin-bottom: 12px;
+}
+
+.featured-header h2 {
+    font-size: 40px;
+}
+
+.view-all-btn {
+    background: transparent;
+    border: 1px solid #222;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e8e5e0;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+}
+
+.product-image {
+    height: 320px;
+    background-color: #ddd5ca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+.product-info {
+    padding: 22px;
+}
+
+.product-category {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #8b6f47;
+    margin-bottom: 10px;
+}
+
+.product-info h3 {
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+.product-info button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.why-choose {
+    padding: 100px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 80px;
+    align-items: center;
+    background-color: #222;
+    color: white;
+}
+
+.why-content h2 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.why-description {
+    color: #bdbdbd;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.why-card {
+    border: 1px solid #444;
+    padding: 30px 25px;
+    min-height: 250px;
+}
+
+.why-number {
+    color: #8b6f47;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.why-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.why-card p {
+    color: #aaa;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.enquiry-section {
+    padding: 100px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    background-color: white;
+}
+
+.enquiry-info h2 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.enquiry-info>p {
+    color: #666;
+    line-height: 1.7;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-details p {
+    color: #444;
+}
+
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+}
+
+.enquiry-form input:focus,
+.enquiry-form select:focus,
+.enquiry-form textarea:focus {
+    border-color: #8b6f47;
+}
+
+.enquiry-form textarea {
+    resize: vertical;
+}
+
+.enquiry-form button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* =========================
+   TABLET RESPONSIVENESS
+========================= */
+
+@media (max-width: 1024px) {
+    .hero {
+        gap: 40px;
+        padding: 60px 6%;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+    }
+
+    .image-placeholder {
+        height: 420px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-choose {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .why-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .enquiry-section {
+        gap: 60px;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVENESS
+========================= */
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        flex-direction: column;
+        padding: 60px 6%;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .image-placeholder {
+        height: 350px;
+    }
+
+    .categories,
+    .featured-products,
+    .why-choose,
+    .enquiry-section {
+        padding: 70px 6%;
+    }
+
+    .section-heading h2,
+    .featured-header h2 {
+        font-size: 32px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .why-content h2,
+    .enquiry-info h2 {
+        font-size: 38px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-card {
+        min-height: auto;
+    }
+
+    .enquiry-section {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE SCREENS
+========================= */
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 45px 5%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+    }
+
+    .image-placeholder {
+        height: 280px;
+        font-size: 16px;
+    }
+
+    .categories,
+    .featured-products,
+    .why-choose,
+    .enquiry-section {
+        padding: 55px 5%;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2,
+    .featured-header h2 {
+        font-size: 28px;
+    }
+
+    .why-content h2,
+    .enquiry-info h2 {
+        font-size: 32px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
