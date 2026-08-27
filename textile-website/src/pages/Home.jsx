@@ -85,13 +85,6 @@ function Home() {
                         >
                             View Products
                         </button>
-
-                        <button
-                            className="secondary-btn"
-                            onClick={() => setShowEnquiry(true)}
-                        >
-                            Send Enquiry
-                        </button>
                     </div>
 
                     {showEnquiry && (
