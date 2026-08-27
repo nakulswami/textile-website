@@ -65,13 +65,14 @@ function Home() {
                     <p className="hero-tag">PANIPAT • HOME TEXTILES</p>
 
                     <h1>
-                        Quality Textiles
-                        <span> Made for Every Home.</span>
+                        Woven with Heritage,
+                        <span> Crafted for Indian Homes.</span>
                     </h1>
 
                     <p className="hero-description">
-                        Discover premium bedsheets, blankets, comforters,
-                        and home furnishing products directly from Panipat.
+                        Bring home the warmth of Panipat’s finest looms.
+                        From luxurious bedsheets to cozy comforters,
+                        our textiles blend timeless Indian craftsmanship with everyday comfort.
                     </p>
 
                     <div className="hero-buttons">
