@@ -1,10 +1,16 @@
 .hero {
-    min-height: calc(100vh - 73px);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 70px 8%;
-    gap: 60px;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url('/textile-bg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
